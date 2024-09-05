@@ -21,23 +21,27 @@
 ## Part 2 Answers
 
 1. Command(s) to create `test.txt` in `DirA`:
-2. `test.txt` file contents:
+        `touch DirA/test.txt`
+3. `test.txt` file contents:
 
 ```
-**file contents here**
+**This is my contents**
 ```
 
 ## Part 3 Answers
 
-1. Command to copy `test.txt` to `.hiddentext.txt`: 
-2. Command to view all files, including hidden files, in a directory: 
+1. Command to copy `test.txt` to `.hiddentext.txt`:
+        `cp test.txt .hiddentext.txt`
+
+3. Command to view all files, including hidden files, in a directory: 
+     `ls -a`
 
 ## Part 4 Answers
 
 1. SSH command to sign in to your AWS instance:
 
 ```
-**write command here so it will look fancy on GitHub**
+**ssh -lb ./labsuser.pem ubuntu@44.217.99.208**
 ```
 
 ## Part 5 Answers
