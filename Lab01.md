@@ -24,8 +24,9 @@
         `touch DirA/test.txt`
 3. `test.txt` file contents:</br>
 
-
+```
 **This is my content**
+```
 
 ## Part 3 Answers
 
