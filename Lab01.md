@@ -5,8 +5,9 @@
 
 ## Part 1 Answers
 
-1. Command to make a directory named `DirA`:
+1. Command to make a directory named `DirA`: </br>
      `mkdir DirA`
+   
 3. Command to make a directory named `Dir B`:
 4. Command to go into / open the `Dir B` directory:
 5. Is `DirA` or `Dir B` a better name?  Defend:
