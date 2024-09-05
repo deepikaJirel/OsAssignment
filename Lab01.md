@@ -25,7 +25,7 @@
 3. `test.txt` file contents:</br>
 
 ```
-**This is my content**
+** This is my content **
 ```
 
 ## Part 3 Answers
@@ -41,9 +41,10 @@
 1. SSH command to sign in to your AWS instance: </br>
 
 ```
-**ssh -lb ./labsuser.pem ubuntu@44.217.99.208**
+** ssh -lb ./labsuser.pem ubuntu@44.217.99.208 **
 ```
 
 ## Part 5 Answers
 
 1. [your_github_username_here Profile](FIXTHISURL-https://github.com/your_username)
+2. [deepikaJirel](https://github.com/deepikaJirel/OsAssignment/blob/main/Lab01.md)
