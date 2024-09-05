@@ -8,10 +8,15 @@
 1. Command to make a directory named `DirA`: </br>
      `mkdir DirA`
    
-3. Command to make a directory named `Dir B`:
-4. Command to go into / open the `Dir B` directory:
-5. Is `DirA` or `Dir B` a better name?  Defend:
-6. Command to rename `Dir B` to `DirB`: 
+2. Command to make a directory named `Dir B`: </br>
+     `mkdir Dir B`
+   
+3. Command to go into / open the `Dir B` directory: </br>
+     `cd Dir B`
+4. Is `DirA` or `Dir B` a better name?  Defend: </br>
+      `DirA` is a better name because it doesn't have spaces and is easy to understand when making a directory. However, spaces in directory names such as `Dir B` can sometimes cause issues in command-line environments unless properly escaped or quoted.
+5. Command to rename `Dir B` to `DirB`:  </br>
+     `mv "Dir B" DirB`
 
 ## Part 2 Answers
 
