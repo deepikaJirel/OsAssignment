@@ -25,7 +25,7 @@
 3. `test.txt` file contents:</br>
 
 ```
-** This is my contents **
+**This is my content**
 ```
 
 ## Part 3 Answers
