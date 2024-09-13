@@ -7,7 +7,7 @@
 
 1. Command & steps to create an SSH key pair:
 2. Steps to add public key to GitHub profile:
-3. git command to clone repository: 
+3. git command to clone the repository: 
 
 ## Part 2 Answers
 
@@ -16,28 +16,33 @@ are needed to create a file locally (in your cloned repo)
 and push them (sync) with GitHub.  Only `git` commands are 
 valid answers
 
-1. git command to view the status of the repository:
+1. git command to view the status of the repository: </br>
        ` git status`
-2. git command example to add a file for tracking:
+2. git command example to add a file for tracking: </br>
     `git add <file_name>`
-3. git command to commit changes:
+3. git command to commit changes: </br>
     `git commit -m "type a message"` 
-4. git command to sync local commits with GitHub:
-    'git push origin <branch-name>`
-5. git command to sync commits on GitHub to `clone`d repository:
+4. git command to sync local commits with GitHub: </br>
+    `git push origin <branch-name>`
+5. git command to sync commits on GitHub to `clone`d repository: </br>
     `git pull origin <branch-name>`
 
 
 ## Part 3 Answers
 
 1. `chmod u+r bubbles.txt`
-    - Means:  
+    - Means:
+             `chmod`: `command to change the file permission.`
+              `u+r`: `u is the owner of the file (user).  `r` stands for the read permission.`
+              `bubbles.txt`: `files we are modifying`
+      `so the command `chmod u+r bubbles.txt` permits the user to read the .txt file. If the user already has permission to read it, it remains the same. 
+                                   
 2. `chmod u=rw,g-w,o-x banana.cabana`
-    - Means: 
+    - Means: `The user will have read and write permission, The group will have no write permission others will have no execute permission while the read, write permission is unaffected and the banana.cabana file that we are modifying.`
 3. `chmod a=w snow.md`
-    - Means: 
+    - Means: `This command sets the permission for all the users only have `write` on the file snow.md. `
 4. `chmod 751 program`
-    - Means: 
+    - Means: `
 5. `chmod -R ug+w share`
     - Means: 
 
