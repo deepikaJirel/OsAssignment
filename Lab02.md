@@ -32,30 +32,38 @@ valid answers
 
 1. `chmod u+r bubbles.txt`
     - Means:
-             `chmod`: `command to change the file permission.`
-              `u+r`: `u is the owner of the file (user).  `r` stands for the read permission.`
-              `bubbles.txt`: `files we are modifying`
-      `so the command `chmod u+r bubbles.txt` permits the user to read the .txt file. If the user already has permission to read it, it remains the same. 
+             `chmod`: `command to change the file permission.`</br>
+              `u+r`: `u is the owner of the file (user).  `r` stands for the read permission.`</br>
+              `bubbles.txt`: `files we are modifying`</br>
+      `so the command `chmod u+r bubbles.txt` permits the user to read the .txt file. It remains the same if the user already has permission to read it.` 
                                    
 2. `chmod u=rw,g-w,o-x banana.cabana`
     - Means: `The user will have read and write permission, The group will have no write permission others will have no execute permission while the read, write permission is unaffected and the banana.cabana file that we are modifying.`
 3. `chmod a=w snow.md`
-    - Means: `This command sets the permission for all the users only have `write` on the file snow.md. `
+    - Means: `This command sets the permission for all the users who only have to write on the file snow.md. `
 4. `chmod 751 program`
-    - Means: `
+    - Means: `This command gives the user full permission to read, write and execute. The group reads and execute permission and others only execute permission.`
 5. `chmod -R ug+w share`
-    - Means: 
+    - Means: `The command share recursively grants write permission to the user and the group for the directory share and all files and subdirectories within it.`      
 
 ## Part 4 Answers
 
 1. Command to create new user: 
+       `sudo useradd <username>` `For example: sudo useradd dipika`
 2. Path to user's home directory: 
+       `/home/<username>` `For example: /home/dipika`
 3. Evaluate if `ubuntu` can add files to user's home directory:
+       `ls -ld /home/<username>` `For example: ls -ld /home/dipika`
 4. Command to switch to user:
+       `su - <username>` `For example: su - dipika`
 5. Command(s) to go to user's home directory:
+       `cd /home/<username>` `for example: cd /home/dipika`
 6. Evaluate if user can add files to user's home directory:
+       `ls -ld /home/<username>` `for example: ls -ld /home/dipika`
 7. Command to switch to `ubuntu`:
+       `su - ubuntu`
 8. Command to return to `ubuntu` home directory: 
+       `cd /home/ubuntu`
 
 ## Part 5 Answers
 
