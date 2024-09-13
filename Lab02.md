@@ -31,7 +31,7 @@ valid answers
 ## Part 3 Answers
 
 1. `chmod u+r bubbles.txt`
-    - Means:
+    - Means:</br>
              `chmod`: `command to change the file permission.`</br>
               `u+r`: `u is the owner of the file (user).  `r` stands for the read permission.`</br>
               `bubbles.txt`: `files we are modifying`</br>
@@ -48,39 +48,54 @@ valid answers
 
 ## Part 4 Answers
 
-1. Command to create new user: 
+1. Command to create new user: </br>
        `sudo useradd <username>` `For example: sudo useradd dipika`
-2. Path to user's home directory: 
+2. Path to user's home directory: </br>
        `/home/<username>` `For example: /home/dipika`
-3. Evaluate if `ubuntu` can add files to user's home directory:
+3. Evaluate if `ubuntu` can add files to user's home directory:</br>
        `ls -ld /home/<username>` `For example: ls -ld /home/dipika`
-4. Command to switch to user:
+4. Command to switch to user:</br>
        `su - <username>` `For example: su - dipika`
-5. Command(s) to go to user's home directory:
+5. Command(s) to go to user's home directory:</br>
        `cd /home/<username>` `for example: cd /home/dipika`
-6. Evaluate if user can add files to user's home directory:
+6. Evaluate if user can add files to user's home directory:</br>
        `ls -ld /home/<username>` `for example: ls -ld /home/dipika`
-7. Command to switch to `ubuntu`:
+7. Command to switch to `ubuntu`:</br>
        `su - ubuntu`
-8. Command to return to `ubuntu` home directory: 
+8. Command to return to `ubuntu` home directory: </br>
        `cd /home/ubuntu`
 
 ## Part 5 Answers
 
 For each, write the command used or answer the question posed.
 
-1. Command to create group named `crew`:
-2. Command(s) to add `ubuntu` & user to group `crew`:
-3. Command to modify `share` to have group ownership of `crew`:
-4. Command to switch to user:
-5. Command to add file to `share`: 
+1. Command to create group named `crew`:</br>
+       `sudo groupadd crew`
+2. Command(s) to add `ubuntu` & user to group `crew`:</br>
+       `sudo usermod -aG crew ubuntu`
+       `sudo usermod -aG crew user`
+3. Command to modify `share` to have group ownership of `crew`:</br>
+       `sudo chown :crew /path`  we need to replace /path with the actual path.
+4. Command to switch to user:</br>
+       `su - user`
+5. Command to add file to `share`:</br>
+       To add a file we can use `cp` and `mv` commands. </br>
+       `cp /path/to/yourfile /path/to/share/`</br>
+       `mv /path/to/yourfile /path/to/share/`
+
 6. Evaluate why these steps allowed the above action:
 
 ## Part 6 Answers
 
 For each, write the command used or answer the question posed.
 
-1. Command to create file using `sudo`: 
-2. Evaluate (in plain text) the permission of the file: 
-3. Provide a method to edit the file without modifying permissions: 
-4. Command(s) to modify permissions:
+1. Command to create a file using `sudo`:</br>
+       `sudo touch filename`
+2. Evaluate (in plain text) the permission of the file: </br>
+       `ls -l /pathOfTheFile`
+3. Provide a method to edit the file without modifying permissions: </br>
+       `sudo vim /pathOfTheFile`
+4. Command(s) to modify permissions:</br>
+       `chmod 755 /pathToDirectory`
+   The above command gives the user read, write, and execute permissions, read and execute permissions to the group and others.
+
