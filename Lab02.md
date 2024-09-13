@@ -7,8 +7,16 @@
 
 1. Command & steps to create an SSH key pair:
 2. Steps to add public key to GitHub profile:
+       After generating the public key 
+       - login to `GitHub`.
+       - go to `setting`
+       - click on `SSH and GPG keys`
+       - click on `Add new SSH Key`
+       - Add title make sure you put the Key Type as `Authentication key` and paste the key that you got from `AWS Ubuntu instance` and click on `Add SSH key`
 3. git command to clone the repository: 
-
+       `git clone >repository_url>`</br>
+        for example ` git clone https://github.com/deepikaJirel/ceg2350-dipikaJirel.git`
+  
 ## Part 2 Answers
 
 The answers for this section are to help you record what steps  
@@ -32,9 +40,9 @@ valid answers
 
 1. `chmod u+r bubbles.txt`
     - Means:</br>
-             `chmod`: `command to change the file permission.`</br>
-              `u+r`: `u is the owner of the file (user).  `r` stands for the read permission.`</br>
-              `bubbles.txt`: `files we are modifying`</br>
+              chmod: `command to change the file permission.`</br>
+              u+r: `u is the owner of the file (user).  r stands for the read permission.`</br>
+              bubbles.txt: `files we are modifying`</br>
       so the command `chmod u+r bubbles.txt` permits the user to read the .txt file. It remains the same if the user already has permission to read it. 
                                    
 2. `chmod u=rw,g-w,o-x banana.cabana`
