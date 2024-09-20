@@ -54,22 +54,24 @@ Verify that `roll` made it to your GitHub repository for this course and is in y
 
 ## Part 5 Answers
 
-1. PATH =
-2. To set condition to `true`, I need to...
-3. Command(s):
-4. PATH =
-   - Difference:
-5. Command(s):
-6. Commands & modification explanations: 
+1. PATH = `/home/ubuntu/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin`
+2. To set condition to `true`, I need to... `go through ~/.profile to identify the if statements that modify the PATH `
+3. Command(s): `cat ~/.profile`
+4. PATH = `source ~/.profile`
+   - Difference: `The difference is in the PATH in addition of $HOME/bin`
+   `/home/ubuntu/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin`
+   `/home/ubuntu/bin:/home/ubuntu/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin`
+5. Command(s): `cp roll $HOME/bin/`
+6. Commands & modification explanations:
 7. Script permission breakdown
    - User
-      - must be:
-      - has permissions to:
+      - must be: `Owner of the script`
+      - has permissions to: `Read and Execute the script`
    - Group
-      - must be:
-      - has permissions to:
+      - must be: `associated with the script`
+      - has permissions to: `Read and execute the script.`
    - Other
-      - has permissions to:
+      - has permissions to: `Read and execute the script.`
 
 ## Extra Credit
 
