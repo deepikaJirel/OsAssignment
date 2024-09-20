@@ -46,11 +46,11 @@ Verify that `roll` made it to your GitHub repository for this course and is in y
 ## Part 4 - Retrospective Answers
 
 1. Where and when did it go wrong while working on your script tasks?
-> Your reflection here
+> `I am not much familiar with the script task so learning syntax and writing down the script if the part I find it difficult. There is the syntax of if and then make me confusing as I am familiar with the java so I thought it will be if-else so syntax error is the error that I encounter in writing script`
 2. Was anything familiar working with a new language compared to one you are used to?
-> Your reflection here
+> `The logic is similar as compared to the programming language like Java, but declearing the variable and the synatx I found is quite different.`
 3. Did you write good `commit` messages that refer to what tasks were completed at each commit?  What would you improve?
-> Your reflection here
+> `Yes, I wrote the commits while making every changes and pushing it to the GitHub.`
 
 ## Part 5 Answers
 
