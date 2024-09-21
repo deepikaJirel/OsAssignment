@@ -63,6 +63,17 @@ Verify that `roll` made it to your GitHub repository for this course and is in y
    `/home/ubuntu/bin:/home/ubuntu/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin`
 5. Command(s): `cp roll $HOME/bin/`
 6. Commands & modification explanations:
+   `check the Current Path`
+      `echo $PATH`
+   `Read Profile`
+      `cat ~/.profile`
+   `Create Directory to make Condition True`
+      `mkdir -p $HOME/bin`
+   `Reload Profile`
+      `source ~/.profile`
+   `Check Updated PATH`
+      `echo $PATH`
+   ` We will see the modification in the PATH`
 7. Script permission breakdown
    - User
       - must be: `Owner of the script`
@@ -75,4 +86,6 @@ Verify that `roll` made it to your GitHub repository for this course and is in y
 
 ## Extra Credit
 
-1. Note here *what* you did to the script for the extra credit.
+For the extra credit I have created a symbolic link in the $HOME/bin directory:
+`ln -s /path/to/original/roll $HOME/bin/roll`
+
